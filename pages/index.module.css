@@ -1,0 +1,10 @@
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.click {
+  cursor: pointer;
+  font-size: 20px;
+  color: chocolate;
+}
