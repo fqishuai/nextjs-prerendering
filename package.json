@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-blog",
+  "name": "nextjs-prerendering",
   "version": "0.0.1",
-  "description": "first nextjs app, deployed by vercel",
+  "description": "Web Performance Testing; Deployed By Vercel",
   "author": "fqishuai",
   "private": true,
   "license": "UNLICENSED",
@@ -26,6 +26,7 @@
     "Next",
     "vercel",
     "SSG",
-    "SSR"
+    "SSR",
+    "performance"
   ]
 }
