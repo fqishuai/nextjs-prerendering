@@ -1,3 +1,4 @@
+import React, { ReactNode } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from './layout.module.css';
@@ -7,7 +8,12 @@ import Link from 'next/link';
 const name = 'Rawlins Feng';
 export const siteTitle = 'Next.js Sample Website';
 
-export default function Layout({ children, home }) {
+type IProps = {
+  children?: ReactNode;
+  home?: boolean;
+}
+
+export default function Layout({ children, home }: IProps) {
   console.log('home flag:', home)
   return (
     <div className={styles.container}>

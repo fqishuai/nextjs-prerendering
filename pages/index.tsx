@@ -22,7 +22,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData }: { allPostsData: any[] }) {
 
   const handleCreateUser = () => {
     fetch('https://nest-serverless.vercel.app/user/create',{
