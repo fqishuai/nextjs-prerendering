@@ -1,7 +1,7 @@
 import React from 'react';
 import { Line } from '@ant-design/plots';
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const innerRes = await fetch('https://nest-serverless.vercel.app/user/getLineData',{
     method: 'post',
   });
